@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMA基础示例：实时数据河流</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="uma-header">
+            <h1><i class="fas fa-water"></i> 数据河流</h1>
+            <p class="subtitle">泛在媒体艺术基础示例</p>
+            <div class="concept-tags">
+                <span class="tag">UMA-001</span>
+                <span class="tag">UMA-402</span>
+                <span class="tag">实时生成</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="control-panel">
+                <div class="control-group">
+                    <label for="dataSource">数据源：</label>
+                    <select id="dataSource">
+                        <option value="weather">实时天气</option>
+                        <option value="crypto">加密货币</option>
+                        <option value="social">社交媒体趋势</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="visualization">可视化模式：</label>
+                    <select id="visualization">
+                        <option value="particles">粒子河流</option>
+                        <option value="waves">数据波形</option>
+                        <option value="network">关系网络</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label>强度：<span id="intensityValue">50</span></label>
+                    <input type="range" id="intensity" min="1" max="100" value="50">
+                </div>
+                
+                <button id="fullscreenBtn" class="btn"><i class="fas fa-expand"></i> 全屏沉浸</button>
+                <button id="exportBtn" class="btn"><i class="fas fa-download"></i> 导出快照</button>
+            </div>
+
+            <div class="visualization-container">
+                <canvas id="umaCanvas"></canvas>
+                <div class="data-overlay">
+                    <div class="metric">
+                        <span class="label">数据流速</span>
+                        <span class="value" id="dataRate">0</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">粒子数量</span>
+                        <span class="value" id="particleCount">0</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">运行时间</span>
+                        <span class="value" id="uptime">00:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-explanation">
+                <h3><i class="fas fa-lightbulb"></i> UMA概念演示</h3>
+                <div class="concept-card">
+                    <h4>UMA-402: 数据河流</h4>
+                    <p>将实时数据流（天气、金融、社交媒体）转化为动态的视觉河流。每个数据点如同水滴，汇聚成反映数字世界脉动的美学体验。</p>
+                </div>
+                <div class="concept-card">
+                    <h4>UMA-001: 泛在性</h4>
+                    <p>数据来自全球分布的API，计算在浏览器中实时进行，展示设备可以是任何有浏览器的屏幕——艺术资源无处不在。</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="uma-footer">
+            <p>泛在媒体艺术 (UMA) 示例项目 | 
+                <a href="https://github.com/ewanqian/ubiquitous-media-art" target="_blank">GitHub仓库</a> | 
+                <a href="#" id="conceptDetails">概念详情</a>
+            </p>
+            <p class="license">CC BY-SA 4.0 & MIT License</p>
+        </footer>
+    </div>
+
+    <script src="data-fetcher.js"></script>
+    <script src="visualizer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
