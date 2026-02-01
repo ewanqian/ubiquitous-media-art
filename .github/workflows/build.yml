@@ -1,0 +1,78 @@
+name: UMA Framework CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 0' # 每周日运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: |
+        npm install
+        pip install -r requirements.txt  # 如果有Python依赖
+
+    - name: Generate concept index
+      run: |
+        python scripts/generate-concept-index.py
+
+    - name: Validate markdown
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        folder-path: '.'
+        file-extension: '.md'
+        config-file: '.github/markdown-link-check.json'
+
+    - name: Run tests
+      run: |
+        npm test  # 如果有测试
+        python -m pytest tests/  # 如果有Python测试
+
+    - name: Build documentation
+      run: |
+        npm run docs:build  # 如果有文档构建
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: uma-framework-${{ github.sha }}
+        path: |
+          CONCEPTS/README.md
+          docs/
+        retention-days: 7
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs  # 文档目录
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Deploy to demo site
+      if: success()
+      run: |
+        # 这里可以添加部署到演示站点的脚本
+        echo "Deployment completed"

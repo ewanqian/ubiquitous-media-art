@@ -5,19 +5,34 @@
 
 **English**：An art creation framework for the digital native era, embracing ubiquitous computing, artificial intelligence, and distributed intelligence, redefining the relationships between creators, works, and experiences.
 
-## 🏛️ 核心理念 | Core Concepts
+## 🏛️ 核心概念体系 | Core Concept System
 
-### <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 4px 12px; border-radius: 16px; font-size: 14px; margin-right: 8px;">UMA-001</span> 泛在性 | Ubiquity
-计算、网络、智能无处不在，艺术资源从稀缺走向丰裕
+### 🧠 哲学基础概念 (UMA-000 ~ UMA-099)
 
-### <span style="display: inline-block; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 4px 12px; border-radius: 16px; font-size: 14px; margin-right: 8px;">UMA-002</span> 向前逃逸 | Forward Escape
-面对技术奇点，不是后退而是向更复杂的未来跃进
+| 概念编号 | 概念名称 | 简短描述 | 详细链接 |
+|---------|---------|---------|----------|
+| **UMA-001** | [泛在性 (Ubiquity)](./CONCEPTS/UMA-001-Ubiquity.md) | 计算、网络、智能无处不在，艺术资源从稀缺走向丰裕 | [查看详情](./CONCEPTS/UMA-001-Ubiquity.md) |
+| **UMA-002** | [向前逃逸 (Forward Escape)](./CONCEPTS/UMA-002-Forward-Escape.md) | 面对技术奇点，不是后退而是向更复杂的未来跃进 | [查看详情](./CONCEPTS/UMA-002-Forward-Escape.md) |
+| **UMA-003** | [扩散作者性 (Diffused Authorship)](./CONCEPTS/UMA-003-Diffused-Authorship.md) | 在人与智能网络的共生中，重新界定创造的主体性 | [查看详情](./CONCEPTS/UMA-003-Diffused-Authorship.md) |
+| **UMA-004** | [终极震撼 (Ultimate Spectacle)](./CONCEPTS/UMA-004-Ultimate-Spectacle.md) | 追求超越日常经验的感官与认知冲击 | [查看详情](./CONCEPTS/UMA-004-Ultimate-Spectacle.md) |
 
-### <span style="display: inline-block; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 4px 12px; border-radius: 16px; font-size: 14px; margin-right: 8px;">UMA-003</span> 扩散作者性 | Diffused Authorship
-在人与智能网络的共生中，重新界定创造的主体性
+### 🎨 创作实践概念 (UMA-200 ~ UMA-299)
 
-### <span style="display: inline-block; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 4px 12px; border-radius: 16px; font-size: 14px; margin-right: 8px;">UMA-004</span> 终极震撼 | Ultimate Spectacle
-追求超越日常经验的感官与认知冲击
+| 概念编号 | 概念名称 | 简短描述 | 详细链接 |
+|---------|---------|---------|----------|
+| **UMA-201** | [创作方法论 (Creation Methodology)](./CONCEPTS/UMA-201-Creation-Methodology.md) | 泛在媒体艺术的系统性创作方法，强调过程的开放性、迭代性和技术与艺术的深度融合 | [查看详情](./CONCEPTS/UMA-201-Creation-Methodology.md) |
+
+### 📐 美学体系概念 (UMA-300 ~ UMA-399)
+
+| 概念编号 | 概念名称 | 简短描述 | 详细链接 |
+|---------|---------|---------|----------|
+| **UMA-301** | [终极震撼美学 (Ultimate Spectacle Aesthetics)](./CONCEPTS/UMA-301-Ultimate-Spectacle-Aesthetics.md) | 通过技术手段创造超越日常经验的美学体验，实现认知超越和精神升华 | [查看详情](./CONCEPTS/UMA-301-Ultimate-Spectacle-Aesthetics.md) |
+
+### 🔄 作品形态概念 (UMA-400 ~ UMA-499)
+
+| 概念编号 | 概念名称 | 简短描述 | 详细链接 |
+|---------|---------|---------|----------|
+| **UMA-401** | [实时演变架构 (Real-Time Evolution Architecture)](./CONCEPTS/UMA-401-Real-Time-Evolution-Architecture.md) | 作品具有生命般的特性，能够实时响应环境变化和观众互动，在持续的演变中呈现不同的状态 | [查看详情](./CONCEPTS/UMA-401-Real-Time-Evolution-Architecture.md) |
 
 ## 📁 项目结构 | Project Structure
 

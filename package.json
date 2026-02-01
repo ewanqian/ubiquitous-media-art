@@ -1,0 +1,47 @@
+{
+  "name": "ubiquitous-media-art-framework",
+  "version": "0.1.0-alpha",
+  "description": "开源框架，用于创作和实践泛在媒体艺术",
+  "main": "uma.config.js",
+  "scripts": {
+    "start": "node scripts/dev-server.js",
+    "build:concepts": "python scripts/generate-concept-index.py",
+    "test": "jest --passWithNoTests",
+    "docs:build": "node scripts/build-docs.js",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "validate": "npm run lint && npm run test && npm run build:concepts",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "ubiquitous-media",
+    "generative-art",
+    "ai-art",
+    "real-time",
+    "immersive",
+    "digital-art",
+    "creative-coding"
+  ],
+  "author": "UMA Community <community@uma.art>",
+  "license": "Dual: CC BY-SA 4.0 AND MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewanqian/ubiquitous-media-art.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ewanqian/ubiquitous-media-art/issues"
+  },
+  "homepage": "https://github.com/ewanqian/ubiquitous-media-art#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "type": "commonjs"
+}
