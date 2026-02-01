@@ -1,11 +1,6 @@
 # 🎨 泛在媒体艺术 | Ubiquitous-Media Art (UMA)
 
-泛在媒体艺术 | Ubiquitous-Media Art 面向计算泛在时代的艺术创作框架，拥抱无处不在的计算、人工智能与分布式智能，重新定义创作者、作品与体验的关系 | An art creation framework for the era of ubiquitous computing, embracing pervasive computing, artificial intelligence, and distributed intelligence, redefining the relationships between creators, works, and experiences
-
-## 📜 项目愿景 | Project Vision
-**中文**：一个面向计算泛在时代的艺术创作框架，拥抱无处不在的计算、人工智能与分布式智能，重新定义创作者、作品与体验的关系。
-
-**English**：An art creation framework for the era of ubiquitous computing, embracing pervasive computing, artificial intelligence, and distributed intelligence, redefining the relationships between creators, works, and experiences.
+泛在媒体艺术 | Ubiquitous-Media Art 面向计算、网络、智能无处不在的时代，帮助艺术家利用丰裕的创作资源，创造超越传统界限的艺术作品 | A framework for artists to utilize abundant creative resources in the era of ubiquitous computing, networks, and intelligence, creating artworks that transcend traditional boundaries
 
 ## 🏛️ 核心概念体系 | Core Concept System
 
@@ -35,6 +30,19 @@
 | 概念编号 | 概念名称 | 简短描述 | 详细链接 |
 |---------|---------|---------|----------|
 | **UMA-401** | [实时演变架构 (Real-Time Evolution Architecture)](./CONCEPTS/UMA-401-Real-Time-Evolution-Architecture.md) | 作品具有生命般的特性，能够实时响应环境变化和观众互动，在持续的演变中呈现不同的状态 | [查看详情](./CONCEPTS/UMA-401-Real-Time-Evolution-Architecture.md) |
+
+## 📜 项目愿景 | Project Vision
+**中文**：创建一个开放、包容的艺术创作框架，让艺术家能够充分利用当代技术的潜力，创造出超越传统界限的沉浸式、动态演变的艺术作品。
+
+**English**：To create an open and inclusive art creation framework that enables artists to fully utilize the potential of contemporary technology, creating immersive, dynamically evolving artworks that transcend traditional boundaries.
+
+## 📋 项目简介 | Project Introduction
+
+**什么是泛在媒体艺术？**
+在计算、网络、智能无处不在的今天，创作资源正从稀缺走向丰裕。泛在媒体艺术就是在这样的时代背景下，为艺术家提供的一套创作框架，帮助你充分利用这些丰裕的资源，创造出超越传统界限的艺术作品。
+
+**Why Ubiquitous-Media Art?**
+In an era where computing, networks, and intelligence are everywhere, creative resources are shifting from scarcity to abundance. Ubiquitous-Media Art is a framework that helps artists fully utilize these abundant resources to create artworks that transcend traditional boundaries.
 
 ## 📁 项目结构 | Project Structure
 
