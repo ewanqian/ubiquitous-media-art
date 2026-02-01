@@ -1,11 +1,11 @@
-# 🎨 数字原生时代泛在媒体艺术 | Ubiquitous-Media Art (UMA)
+# 🎨 泛在媒体艺术 | Ubiquitous-Media Art (UMA)
 
-数字原生时代泛在媒体艺术 | Ubiquitous-Media Art 数字原生时代的艺术创作框架，拥抱泛在计算、人工智能与分布式智能，重新定义创作者、作品与体验的关系 | An art creation framework for the digital native era, embracing ubiquitous computing, artificial intelligence, and distributed intelligence, redefining the relationships between creators, works, and experiences
+泛在媒体艺术 | Ubiquitous-Media Art 面向计算泛在时代的艺术创作框架，拥抱无处不在的计算、人工智能与分布式智能，重新定义创作者、作品与体验的关系 | An art creation framework for the era of ubiquitous computing, embracing pervasive computing, artificial intelligence, and distributed intelligence, redefining the relationships between creators, works, and experiences
 
 ## 📜 项目愿景 | Project Vision
-**中文**：一个面向数字原生时代的艺术创作框架，拥抱泛在计算、人工智能与分布式智能，重新定义创作者、作品与体验的关系。
+**中文**：一个面向计算泛在时代的艺术创作框架，拥抱无处不在的计算、人工智能与分布式智能，重新定义创作者、作品与体验的关系。
 
-**English**：An art creation framework for the digital native era, embracing ubiquitous computing, artificial intelligence, and distributed intelligence, redefining the relationships between creators, works, and experiences.
+**English**：An art creation framework for the era of ubiquitous computing, embracing pervasive computing, artificial intelligence, and distributed intelligence, redefining the relationships between creators, works, and experiences.
 
 ## 🏛️ 核心概念体系 | Core Concept System
 
